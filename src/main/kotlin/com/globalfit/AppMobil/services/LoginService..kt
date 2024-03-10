@@ -1,4 +1,7 @@
 package com.globalfit.AppMobil.services;
 
-public class LoginService {
+import com.globalfit.AppMobil.Model.UsuariosModel
+
+interface LoginService {
+    fun insertarUsuario(usuario: UsuariosModel)
 }
