@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service
 class LoginServiceImpl @Autowired constructor(
         private val loginRepository: LoginRepository
 ) : LoginService {
-    
+
     /**
      * Inserta un nuevo usuario en la base de datos.
      *
